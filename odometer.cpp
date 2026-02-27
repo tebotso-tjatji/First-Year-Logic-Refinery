@@ -19,7 +19,7 @@ int main() {
     if (current >= previous) {
         distance = current - previous;
     } else {
-        // Distance to the max, plus 1 to roll over to 0, plus the new reading,we treated this
+        // Distance to the max, plus 1 to roll over to 0, plus the new reading
         distance = (max_reading - previous + 1) + current;
     }
 
